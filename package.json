@@ -1,0 +1,14 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "chat enn firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MateoVelilla",
+  "license": "ISC",
+  "dependencies": {
+	"firebase":"*"
+	}
+}
