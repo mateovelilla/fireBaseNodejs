@@ -6,8 +6,6 @@ var rl = readline.createInterface({
   output: process.stdout
 });
 
-//myFirebaseRef.set({"user":"node","mesagge":"Hola desde node"});
-
 rl.on('line', function (msg) {
 	myFirebaseRef.child("message")
 	.push()
