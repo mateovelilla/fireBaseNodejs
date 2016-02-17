@@ -9,7 +9,7 @@ var rl = readline.createInterface({
 rl.on('line', function (msg) {
 	myFirebaseRef.child("message")
 	.push()
-	.set({"name":"node","message":msg});
+	.set({"name":"cualquiera","message":msg});
 });
 
 myFirebaseRef.on("child_changed", function(snapshot, prevChildKey) {
